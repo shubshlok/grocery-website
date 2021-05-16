@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../fonts/css/all.css">
+  <title>Grocery and daily needs</title>
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+
+<body class=".container-fluid">
+
+  <div class="container-fluid text-center mb-5 mt-5 ">
+    <h1 class="display-3">Grocery&Essential</h1>
+  </div>
+
+
+  <div class="container-fluid ">
+    <div class="row justify-content-md-center navbar navbar-expand-lg navbar-dark bg-dark ">
+      <div class="row">
+        <div class="col">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active  aria-current= page" href="#"> <span class="fa fa-home"></span>
+                Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../public/about.html"> <span class="fa fa-question"></span>About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../public/service.html"><span class="fab fa-servicestack"></span>Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="../public/contact.html"><span class=" fa fa-phone"></span>Contact us</a>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="col-md-auto">
+          Variable width content
+        </div>
+        <div class="col col-lg-2 nav-item navbar-nav justify-content-md-center mb-2 mb-lg-0">
+
+          <div class="dropdown">
+            <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false">
+
+              <span class="fas fa-sign-in-alt"></span> Sign in
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#"> <span class="fas fa-user-plus"></span> Signup</a></li>
+              <li><a class="dropdown-item" href="#"><span class="fas fa-sign-in-alt"></span> Sign in</a></li>
+              <li><a class="dropdown-item" href="#"><span class="fas fa-unlock-alt"></span> Forgot Password</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid mt-2">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner container-fluid">
+          <div class="carousel-item active">
+            <img src="https://source.unsplash.com/1350x500/?grocery" class="rounded mx-auto d-block img-fluid">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1350x500/?essential" class="rounded mx-auto d-block img-fluid">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1350x500/?biscuits" class="rounded mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="mt-5">
+      <div class="d-grid col-3 mx-auto">
+        <button class="btn btn-success" type="button">Organic Products</button>
+      </div>
+      <div class="d-grid  col-2 mx-auto mt-1">
+        <button class="btn btn-warning" type="button">Farm Fresh</button>
+      </div>
+    </div>
+
+    <div class="mt-5">
+      <pre class="text-center"><code>Fruits and Vegitables are grown...
+      Mineral oils are aviable here that are made from old methods..
+    </code></pre>
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col ">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Serial</th>
+                <th scope="col">Fruit Name </th>
+                <th scope="col">varietie</th>
+                <th scope="col">Price (per kg)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mango</td>
+                <td>Badami</td>
+                <td>&#8377; 120</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Litchi</td>
+                <td>Rose Scented</td>
+                <td>&#8377; 70</td>
+              </tr>
+
+              <tr>
+                <th scope="row">2</th>
+                <td>Apple</td>
+                <td>Sunehari</td>
+                <td>&#8377; 175</td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="https://source.unsplash.com/700x278/?Mango,Apple,Litchi" alt="">
+        </div>
+
+      </div>
+
+      <div class="container bg-primary mt-5">
+
+        <h2 class="text-center">What is groccery</h2>
+        <div class="d-flex flex-row bd-highlight mb-3 text-center">
+          <div class="p-2 bd-highlight">
+            <div class="fas fa-globe-asia"></div>
+            <h3>Groccery</h3>
+            <p>The daily needs and household products </p>
+          </div>
+          <div class="p-2 bd-highlight">
+            <div class="fas fa-apple-alt"></div>
+            <h3>Fruits</h3>
+            <p>Natural sweetning and nutrious option to eat </p>
+          </div>
+          <div class="p-2 bd-highlight">
+            <div class="fas fa-pepper-hot"></div>
+            <h3>Vegitables</h3>
+            <p>Green Vegies are good for iron and for glowing skin</p>
+          </div>
+        </div>
+      </div>
+</body>
+
+</html>
